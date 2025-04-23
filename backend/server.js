@@ -14,7 +14,7 @@ const io = socketIo(server, {
     }
 });
 
-const connectUrl = `amqps://esstrisy:fgSDqs5Z87QMdOgCTQGzm6qF-kABs5EI@leopard.lmq.cloudamqp.com/esstrisy`;
+const connectUrl = `amqps://esstrisy:f87QMdOgCTQGzm6qF-kABs5EI@leopard.lmq.cloudamqp.com/esstrisy`;
 const queue = 'temperature-stream';
 
 const startRabitConsumer = async()=>{

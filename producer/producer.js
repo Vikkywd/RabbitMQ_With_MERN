@@ -1,7 +1,7 @@
 const amqp = require('amqplib');
 
 const queue = 'temperature-stream';
-const connectUrl = 'amqps://esstrisy:fgSDqs5Z87QMdOgCTQGzm6qF-kABs5EI@leopard.lmq.cloudamqp.com/esstrisy';
+const connectUrl = 'amqps://esstrisy:fgSF-kABs5EI@leopard.lmq.cloudamqp.com/esstrisy';
 
 
 const startProducer = async () => {
